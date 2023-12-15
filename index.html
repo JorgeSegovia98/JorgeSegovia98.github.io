@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+</head>
+
+<body>
+    <header>
+        <section>
+            <div id = "MenuIzquierda">
+                <ul>
+                    <li><a href="#">PROMOCIONES</a></li>
+                    <li><a href="#">FOTOS</a></li>
+                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a href="#">MAPA</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </div>
+            
+            <div id="MenuDerecha">
+                <div id="MenuUsuario">
+                    <img src="images\user.png" alt="icono de usuario">
+                    <p><a href="#">Mi cuenta</a></p>
+                </div>
+                <div id="MenuIdioma">
+                    <p><a href="#">ES</a></p>
+                    <img id = "bandera" src="images\flag.png" alt="Bandera de españa">
+                    <img id="flecha" src="images\arrow.png" alt="icono de flecha">
+                </div>
+            </div>
+            
+        </section>
+    </header>
+
+    <main>
+        <section id="inicioSPA">
+            <div id="textoSPA">
+                <h1>SPA - Jodos</h1>
+                <h2>Regálate un momento de paz y </h2>
+                <h2>consiente a tu piel en el mejor lugar</h2>
+            </div>
+        </section>
+
+        <section id="buscadorSeccion">
+            <div id="citaSeccion">
+                <p>Reserva tu cita: <input id="reservarBuscador" type="text"></p>
+            </div>
+            <div id="promocionSeccion">
+                <p>Código promocional: <input id="promocionalBuscador" type="text" placeholder="CODIGO"></p>
+            </div>
+            
+        </section>
+        
+        <section id="masajes">
+            <article class="imagenMasaje">
+                <h2>Masaje de pies</h2>
+                <img src="images\pies.png" alt="imagen del masaje de pies">
+                <p>Esta es una descripción de la opción en cuestión ...</p>        
+                <ul>
+                    <li class="precio">$65</li>
+                    <li><input class="reservarMasaje" type="submit" value="Reservar"></li>
+                </ul>        
+            </article>
+
+            <article class="imagenMasaje">
+                <h2>Masaje relajante</h2>
+                <img src="images\relajante.png" alt="imagen del relajante">
+                <p>Esta es una descripción de la opción en cuestión ...</p>        
+                <ul>
+                    <li class="precio">$60</li>
+                    <li><input class="reservarMasaje" type="submit" value="Reservar"></li>
+                </ul>        
+            </article>
+
+            <article class="imagenMasaje">
+                <h2>Masaje con bambú</h2>
+                <img src="images\bambu.png" alt="imagen del masaje con bambu">
+                <p>Esta es una descripción de la opción en cuestión ...</p>        
+                <ul>
+                    <li class="precio">$58</li>
+                    <li><input class="reservarMasaje" type="submit" value="Reservar"></li>
+                </ul>        
+            </article>
+        </section>
+
+        <section id="membresias">
+            <h1 id="tituloCentral">Hazte socio y prueba nuestros beneficios</h1>
+            <article>
+                <div class="imagenPlan">
+                    <img src="images\gold.png" alt="imagen del plan GOLD">
+                </div>
+                <h1 class="planMembresia">GOLD</h1>
+                <input class="btnCondiciones" type="submit" value="VER CONDICIONES">
+                <ul>
+                    <li>Gimnasio</li>
+                    <li>Piscina</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </article>
+
+            <article>
+                <div class="imagenPlan">
+                    <img src="images\premium.png" alt="imagen del plan premium">
+                </div>
+                <h1 class="planMembresia">PREMIUM</h1>
+                <input class="btnCondiciones" type="submit" value="VER CONDICIONES">
+                <ul>
+                    <li>Gimnasio</li>
+                    <li>Todos los tratamientos</li>
+                </ul>
+            </article>
+
+            <article>
+                <div class="imagenPlan">
+                    <img src="images\plate.png" alt="imagen del plan plate">
+                </div>
+                <h1 class="planMembresia">PLATE</h1>
+                <input class="btnCondiciones" type="submit" value="VER CONDICIONES">
+                <ul>
+                    <li>Tratamiento faciales</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div id="footerIzquierda">
+                <ul>
+                    <li><a href="#">POLÍTICAS DE COOKIES</a></li>
+                    <li><a href="#">AVISO LEGAL</a></li>
+                    <li><a href="#">PROTECCIÓN DE DATOS</a></li>
+                    <li><a href="#">MAPA DEL SITIO</a></li>
+                </ul>
+            </div>
+            <div id="footerDerecha">
+                <p>SÍGUENOS EN</p>
+                <img src="images\rs_facebook.png" alt="logo de facebook">
+                <img src="images\rs_twiter.png" alt="logo de twitter">
+                <img src="images\rs_youtube.png" alt="logo de youtube">
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

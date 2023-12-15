@@ -1,0 +1,391 @@
+/*{border: 1px solid #FF0000}/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+
+/****** HEADER ******/
+header{
+    background-color: #A3A656;
+    height: 70px;
+}
+
+#MenuIzquierda{
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+#MenuIzquierda ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#MenuIzquierda ul li a{
+    color: hsl(0, 0%, 0%);
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#MenuDerecha{
+    float: right;
+    margin-top: 10px;
+}
+
+#MenuUsuario img{
+    display: inline-block;
+    height: 45px;
+}
+
+#MenuUsuario p{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+#MenuUsuario{
+    display: inline-block;
+    padding: 0px 35px;
+}
+
+#MenuIdioma{
+    display: inline-block;
+}
+
+#MenuIdioma img{
+    display: inline-block;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+#MenuIdioma p{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+#flecha{
+    position: relative;
+    height: 11px;
+    bottom: 15px;
+}
+
+#bandera{
+    bottom: 15px;
+}
+
+#MenuUsuario a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px ;
+}
+
+#MenuIdioma a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px ;
+}
+
+/****** MAIN ******/
+#inicioSPA{
+    background-image: url("../images/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 655px;
+}
+
+#textoSPA{
+    display: inline-block;
+    margin-left: 205px;
+    margin-top: 75px;
+}
+
+#textoSPA h1{
+    font-size: 96px;
+    font-family: 'Romanesco';
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+#textoSPA h2{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px ;
+    margin: 0px;
+}
+
+#buscadorSeccion{
+    height: 100px;
+    text-align: center;
+    background-color: #F2F6F6;
+}
+
+
+#citaSeccion{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#promocionSeccion{
+    display: inline-block;
+}
+
+#citaSeccion p{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px ;
+}
+
+#promocionSeccion p{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px ;
+}
+
+#reservarBuscador{
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    width: 230px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+#promocionalBuscador{
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    width: 170px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+#promocionalBuscador::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9E9A9A;
+}
+
+#masajes{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+#masajes article{
+    display: inline-block;
+    text-align: center;
+    width: 310px;
+    margin: 0px 67px;
+}
+
+#masajes p{
+    position: relative;
+}
+
+#masajes h2{
+    text-align: center;
+    background-color: #A3A656;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px ;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 12px;
+    height: 60px;
+}
+
+.imagenMasaje p{
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px ;
+    margin-top: 8px;
+}
+
+.imagenMasaje img{
+    width: 309px;
+}
+
+#masajes ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0px;
+}
+
+#masajes ul li{
+    display: inline-block;
+    margin: 0px;
+    align-content: center;
+}
+
+.reservarMasaje{
+    border-radius: 35px;
+    background-color: #A3A656;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    width: 115px;
+    height: 40px;
+    margin-left: auto;
+}
+
+.precio{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    padding-right: 132px;
+}
+
+#membresias{
+    height: 770px;
+    background-color: #F2F6F6;
+    text-align: center;
+}
+
+
+#membresias ul li{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+#membresias article{
+    display: inline-block;
+    vertical-align: top;
+    margin: 80px 95px;
+}
+
+.btnCondiciones{
+    border-radius: 35px;
+    background-color: #A3A656;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    width: 270px;
+    height: 55px;
+    margin-bottom: 20px;
+}
+
+.imagenPlan{
+    background-color: #FFF;
+    border: 12px solid #384001;
+    border-radius: 50%;
+    width: 233px;
+    height: 233px;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+}
+
+.planMembresia{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+#tituloCentral{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+/****** Footer ******/
+footer{
+    background-color: #384001;
+    height: 97px;
+}
+
+#footerIzquierda{
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+#footerIzquierda ul li{
+    display: inline-block;
+    padding: 0px 35px;
+}
+
+#footerIzquierda ul li a{
+    color: #A3A656;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#footerDerecha{
+    float: right;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+#footerDerecha p{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    color: #A3A656;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding-right: 30px;
+}
+
+#footerDerecha img{
+    display: inline-block;
+    padding: 0px 20px;
+    height: 40px;
+    width: 40px;
+}
+
+/****** CAMBIOS CON MOUSE ******/
+
+#MenuIzquierda ul li a:hover {
+    color: #FFFF00; 
+}
+
+#MenuDerecha p a:hover{
+    color: #FFFF00;
+}
+
+#footerIzquierda ul li a:hover{
+    color: #FFFF00;
+}
+
+#footerDerecha p:hover{
+    color: #FFFF00;
+}
+
+.reservarMasaje:hover{
+    background-color: #384001;
+}
+
+.btnCondiciones:hover{
+    background-color: #384001;
+}
